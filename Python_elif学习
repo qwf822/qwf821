@@ -1,1 +1,11 @@
-
+#/usr/bin/python
+#这事我刚学的1分钱东西---elif
+x = int(input("输入数值1"))
+y = int(input("输入数值2"))
+z = int(x % y)
+if z == 0:
+    print(x,"能被",y,"整除","余数为",z)
+elif z > 0:
+    print(x,"不能被",y,"整除","余数为",z)
+else:
+    print("你的输入有误")
